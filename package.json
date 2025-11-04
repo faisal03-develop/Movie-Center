@@ -4,15 +4,17 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node api.js && vite",
+    "build": "node api.js && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.16",
+    "appwrite": "^21.4.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "react-use": "^17.6.0",
     "tailwindcss": "^4.1.16"
   },
   "devDependencies": {
